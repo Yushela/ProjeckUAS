@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-form-container" id="login-form">
+        <div class="login-form-content">
+            <div class="login-form-header">
+                <h3>Login</h3>
+            </div>
+            <form method="post" action="" class="login-form">
+                <div class="input-container">
+                    <ion-icon name="mail"></ion-icon>
+                    <input type="email" class="input" name="email" placeholder="Email"/>
+                </div>
+                <div class="input-container">
+                    <ion-icon name="lock-closed"></ion-icon>
+                    <input type="password"  id="login-password" class="input" name="password" placeholder="Password"/>
+                </div>
+                <div class="rememberme-container">
+                    <input type="checkbox" name="rememberme" id="rememberme"/>
+                    <label for="rememberme" class="rememberme"><span>Remember me</span></label>
+                    <a class="forgot-password" href="#">Forgot Password?</a>
+                </div>
+                <a href="dasboard.html" type="submit" class="register" class="button">Login</a>
+                <a href="register.html" class="register">Register</a>
+            </form>
+        </div>
+    </div>
+
+    <script src="style.css"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
